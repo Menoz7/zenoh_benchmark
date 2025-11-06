@@ -1,6 +1,0 @@
-{
-  "package_name": "latency_test_pkg",
-  "non_idl_tuples": [
-    "/home/captain/zenoh_benchmark/src/latency_test_pkg:msg/LargeData.msg"
-  ]
-}
