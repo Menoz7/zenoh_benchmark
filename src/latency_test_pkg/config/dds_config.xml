@@ -2,34 +2,47 @@
 <profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
     <transport_descriptors>
         <transport_descriptor>
-            <transport_id>CustomSHMTransport</transport_id>
-            <type>SHM</type>
-            <maxMessageSize>12582912</maxMessageSize>
-        </transport_descriptor>
-        <transport_descriptor>
             <transport_id>CustomUDPTransport</transport_id>
             <type>UDPv4</type>
             <sendBufferSize>67108864</sendBufferSize>
             <receiveBufferSize>67108864</receiveBufferSize>
             <maxMessageSize>65500</maxMessageSize>
+            <non_blocking_send>true</non_blocking_send>
         </transport_descriptor>
     </transport_descriptors>
     
     <participant profile_name="large_data_profile" is_default_profile="true">
         <rtps>
             <userTransports>
-                <transport_id>CustomSHMTransport</transport_id>
                 <transport_id>CustomUDPTransport</transport_id>
             </userTransports>
             <useBuiltinTransports>false</useBuiltinTransports>
-            <propertiesPolicy>
-                <properties>
-                    <property>
-                        <name>fastdds.shm.enforce_metatraffic</name>
-                        <value>true</value>
-                    </property>
-                </properties>
-            </propertiesPolicy>
+            <sendSocketBufferSize>67108864</sendSocketBufferSize>
+            <listenSocketBufferSize>67108864</listenSocketBufferSize>
         </rtps>
     </participant>
+    
+    <data_writer profile_name="default_writer" is_default_profile="true">
+        <qos>
+            <reliability>
+                <kind>RELIABLE</kind>
+            </reliability>
+            <durability>
+                <kind>TRANSIENT_LOCAL</kind>
+            </durability>
+        </qos>
+        <historyMemoryPolicy>PREALLOCATED_WITH_REALLOC</historyMemoryPolicy>
+    </data_writer>
+    
+    <data_reader profile_name="default_reader" is_default_profile="true">
+        <qos>
+            <reliability>
+                <kind>RELIABLE</kind>
+            </reliability>
+            <durability>
+                <kind>TRANSIENT_LOCAL</kind>
+            </durability>
+        </qos>
+        <historyMemoryPolicy>PREALLOCATED_WITH_REALLOC</historyMemoryPolicy>
+    </data_reader>
 </profiles>
