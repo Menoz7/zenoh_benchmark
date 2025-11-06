@@ -1,0 +1,4 @@
+source;share/latency_test_pkg/local_setup.bash
+source;share/latency_test_pkg/local_setup.dsv
+source;share/latency_test_pkg/local_setup.sh
+source;share/latency_test_pkg/local_setup.zsh

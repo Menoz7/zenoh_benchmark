@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (latency_test_pkg) JobQueued: {'identifier': 'latency_test_pkg', 'dependencies': OrderedDict()}
+[0.000644] (latency_test_pkg) JobStarted: {'identifier': 'latency_test_pkg'}
+[0.005952] (latency_test_pkg) JobProgress: {'identifier': 'latency_test_pkg', 'progress': 'cmake'}
+[0.006309] (latency_test_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/captain/zenoh_benchmark/src/latency_test_pkg', '-DCMAKE_INSTALL_PREFIX=/home/captain/zenoh_benchmark/install/latency_test_pkg'], 'cwd': '/home/captain/zenoh_benchmark/build/latency_test_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'captain'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/captain'), ('OLDPWD', '/home/captain/zenoh_benchmark/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '795089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('COLCON_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'captain'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'captain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/captain-ThinkPad-T14s-Gen-2a:@/tmp/.ICE-unix/2577,unix/captain-ThinkPad-T14s-Gen-2a:/tmp/.ICE-unix/2577'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5b9b8f_8564_42f0_8a00_b02dc66174be'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.337'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install/zenoh_benchmark:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/captain/zenoh_benchmark/build/latency_test_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install/zenoh_benchmark:/opt/ros/humble')]), 'shell': False}
+[0.050990] (latency_test_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.092819] (latency_test_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098503] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099800] (-) TimerEvent: {}
+[0.156132] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161336] (latency_test_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.161536] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.161817] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.163968] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199929] (-) TimerEvent: {}
+[0.229338] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.234517] (latency_test_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.234753] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.235113] (latency_test_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.236804] (latency_test_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300028] (-) TimerEvent: {}
+[0.346721] (latency_test_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400116] (-) TimerEvent: {}
+[0.407963] (latency_test_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.436378] (latency_test_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.439267] (latency_test_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.444769] (latency_test_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.453015] (latency_test_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.463661] (latency_test_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.492130] (latency_test_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.493808] (latency_test_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500190] (-) TimerEvent: {}
+[0.564756] (latency_test_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.585349] (latency_test_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600274] (-) TimerEvent: {}
+[0.616688] (latency_test_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.622082] (latency_test_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.683479] (latency_test_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.683817] (latency_test_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700361] (-) TimerEvent: {}
+[0.746063] (latency_test_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.746912] (latency_test_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.781591] (latency_test_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800442] (-) TimerEvent: {}
+[0.900988] (-) TimerEvent: {}
+[0.979478] (latency_test_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001064] (-) TimerEvent: {}
+[1.101290] (-) TimerEvent: {}
+[1.201543] (-) TimerEvent: {}
+[1.243897] (latency_test_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301976] (-) TimerEvent: {}
+[1.347274] (latency_test_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.364738] (latency_test_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.366009] (latency_test_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.385729] (latency_test_pkg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.385972] (latency_test_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.386060] (latency_test_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.386118] (latency_test_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.401584] (latency_test_pkg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.402047] (-) TimerEvent: {}
+[1.435506] (latency_test_pkg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.435698] (latency_test_pkg) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.435759] (latency_test_pkg) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[1.435830] (latency_test_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.435896] (latency_test_pkg) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_target_interfaces)\n'}
+[1.435957] (latency_test_pkg) StderrLine: {'line': b'\n'}
+[1.436076] (latency_test_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.436126] (latency_test_pkg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.436172] (latency_test_pkg) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.436213] (latency_test_pkg) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[1.436254] (latency_test_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.436294] (latency_test_pkg) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_target_interfaces)\n'}
+[1.436334] (latency_test_pkg) StderrLine: {'line': b'\n'}
+[1.436374] (latency_test_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.442716] (latency_test_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.473532] (latency_test_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.483402] (latency_test_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/captain/zenoh_benchmark/build/latency_test_pkg\n'}
+[1.492727] (latency_test_pkg) CommandEnded: {'returncode': 0}
+[1.493339] (latency_test_pkg) JobProgress: {'identifier': 'latency_test_pkg', 'progress': 'build'}
+[1.494445] (latency_test_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/captain/zenoh_benchmark/build/latency_test_pkg', '--', '-j16', '-l16'], 'cwd': '/home/captain/zenoh_benchmark/build/latency_test_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'captain'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/captain'), ('OLDPWD', '/home/captain/zenoh_benchmark/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '795089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('COLCON_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'captain'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'captain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/captain-ThinkPad-T14s-Gen-2a:@/tmp/.ICE-unix/2577,unix/captain-ThinkPad-T14s-Gen-2a:/tmp/.ICE-unix/2577'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5b9b8f_8564_42f0_8a00_b02dc66174be'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.337'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install/zenoh_benchmark:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/captain/zenoh_benchmark/build/latency_test_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install/zenoh_benchmark:/opt/ros/humble')]), 'shell': False}
+[1.502111] (-) TimerEvent: {}
+[1.529706] (latency_test_pkg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.538447] (latency_test_pkg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.546480] (latency_test_pkg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_latency_test_pkg\n'}
+[1.602219] (-) TimerEvent: {}
+[1.702508] (-) TimerEvent: {}
+[1.727807] (latency_test_pkg) StdoutLine: {'line': b'[  5%] Built target latency_test_pkg__cpp\n'}
+[1.736235] (latency_test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.736944] (latency_test_pkg) StdoutLine: {'line': b'creating latency_test_pkg.egg-info\n'}
+[1.737119] (latency_test_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/latency_test_pkg__rosidl_generator_c.dir/rosidl_generator_c/latency_test_pkg/msg/detail/large_data__functions.c.o\x1b[0m\n'}
+[1.737198] (latency_test_pkg) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.737279] (latency_test_pkg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.737330] (latency_test_pkg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.737378] (latency_test_pkg) StdoutLine: {'line': b'writing latency_test_pkg.egg-info/PKG-INFO\n'}
+[1.737460] (latency_test_pkg) StdoutLine: {'line': b'writing dependency_links to latency_test_pkg.egg-info/dependency_links.txt\n'}
+[1.737585] (latency_test_pkg) StdoutLine: {'line': b'writing top-level names to latency_test_pkg.egg-info/top_level.txt\n'}
+[1.737812] (latency_test_pkg) StdoutLine: {'line': b"writing manifest file 'latency_test_pkg.egg-info/SOURCES.txt'\n"}
+[1.740055] (latency_test_pkg) StdoutLine: {'line': b"reading manifest file 'latency_test_pkg.egg-info/SOURCES.txt'\n"}
+[1.740518] (latency_test_pkg) StdoutLine: {'line': b"writing manifest file 'latency_test_pkg.egg-info/SOURCES.txt'\n"}
+[1.769024] (latency_test_pkg) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_latency_test_pkg_egg\n'}
+[1.791402] (latency_test_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library liblatency_test_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[1.802601] (-) TimerEvent: {}
+[1.827271] (latency_test_pkg) StdoutLine: {'line': b'[ 20%] Built target latency_test_pkg__rosidl_generator_c\n'}
+[1.838849] (latency_test_pkg) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.839069] (latency_test_pkg) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.839168] (latency_test_pkg) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.902703] (-) TimerEvent: {}
+[1.946428] (latency_test_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/latency_test_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/latency_test_pkg/msg/large_data__type_support.cpp.o\x1b[0m\n'}
+[1.961377] (latency_test_pkg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/latency_test_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/latency_test_pkg/msg/detail/dds_fastrtps/large_data__type_support.cpp.o\x1b[0m\n'}
+[1.971112] (latency_test_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/latency_test_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/latency_test_pkg/msg/detail/large_data__type_support.cpp.o\x1b[0m\n'}
+[2.002815] (-) TimerEvent: {}
+[2.053968] (latency_test_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/latency_test_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/latency_test_pkg/msg/large_data__type_support.cpp.o\x1b[0m\n'}
+[2.078963] (latency_test_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/latency_test_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/latency_test_pkg/msg/detail/large_data__type_support_c.cpp.o\x1b[0m\n'}
+[2.079238] (latency_test_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/latency_test_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/latency_test_pkg/msg/detail/large_data__type_support.c.o\x1b[0m\n'}
+[2.085545] (latency_test_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblatency_test_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.102924] (-) TimerEvent: {}
+[2.119992] (latency_test_pkg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library liblatency_test_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.128360] (latency_test_pkg) StdoutLine: {'line': b'[ 51%] Built target latency_test_pkg__rosidl_typesupport_c\n'}
+[2.152754] (latency_test_pkg) StdoutLine: {'line': b'[ 51%] Built target latency_test_pkg__rosidl_typesupport_introspection_c\n'}
+[2.195325] (latency_test_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library liblatency_test_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.203005] (-) TimerEvent: {}
+[2.235490] (latency_test_pkg) StdoutLine: {'line': b'[ 54%] Built target latency_test_pkg__rosidl_typesupport_cpp\n'}
+[2.303130] (-) TimerEvent: {}
+[2.320430] (latency_test_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library liblatency_test_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.344095] (latency_test_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library liblatency_test_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.359363] (latency_test_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library liblatency_test_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.389910] (latency_test_pkg) StdoutLine: {'line': b'[ 62%] Built target latency_test_pkg__rosidl_typesupport_introspection_cpp\n'}
+[2.403232] (-) TimerEvent: {}
+[2.419804] (latency_test_pkg) StdoutLine: {'line': b'[ 62%] Built target latency_test_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.424383] (latency_test_pkg) StdoutLine: {'line': b'[ 62%] Built target latency_test_pkg__rosidl_typesupport_fastrtps_c\n'}
+[2.442100] (latency_test_pkg) StdoutLine: {'line': b'[ 62%] Built target latency_test_pkg\n'}
+[2.459400] (latency_test_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/large_data_publisher.dir/src/large_data_publisher.cpp.o\x1b[0m\n'}
+[2.459598] (latency_test_pkg) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.459666] (latency_test_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/large_data_subscriber.dir/src/large_data_subscriber.cpp.o\x1b[0m\n'}
+[2.503335] (-) TimerEvent: {}
+[2.603605] (-) TimerEvent: {}
+[2.683295] (latency_test_pkg) StdoutLine: {'line': b'[ 71%] Built target latency_test_pkg__py\n'}
+[2.703251] (latency_test_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/latency_test_pkg__rosidl_generator_py.dir/rosidl_generator_py/latency_test_pkg/msg/_large_data_s.c.o\x1b[0m\n'}
+[2.703665] (-) TimerEvent: {}
+[2.791892] (latency_test_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/latency_test_pkg/liblatency_test_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[2.803782] (-) TimerEvent: {}
+[2.829221] (latency_test_pkg) StdoutLine: {'line': b'[ 77%] Built target latency_test_pkg__rosidl_generator_py\n'}
+[2.850371] (latency_test_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/latency_test_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.850585] (latency_test_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/latency_test_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.850662] (latency_test_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/latency_test_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.903910] (-) TimerEvent: {}
+[2.948983] (latency_test_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.949204] (latency_test_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.949283] (latency_test_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.986564] (latency_test_pkg) StdoutLine: {'line': b'[ 94%] Built target latency_test_pkg__rosidl_typesupport_c__pyext\n'}
+[2.986798] (latency_test_pkg) StdoutLine: {'line': b'[ 94%] Built target latency_test_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.986901] (latency_test_pkg) StdoutLine: {'line': b'[ 94%] Built target latency_test_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.004004] (-) TimerEvent: {}
+[3.104707] (-) TimerEvent: {}
+[3.205405] (-) TimerEvent: {}
+[3.306071] (-) TimerEvent: {}
+[3.406832] (-) TimerEvent: {}
+[3.507478] (-) TimerEvent: {}
+[3.608179] (-) TimerEvent: {}
+[3.708844] (-) TimerEvent: {}
+[3.809140] (-) TimerEvent: {}
+[3.909825] (-) TimerEvent: {}
+[4.010482] (-) TimerEvent: {}
+[4.111102] (-) TimerEvent: {}
+[4.211759] (-) TimerEvent: {}
+[4.312210] (-) TimerEvent: {}
+[4.387588] (latency_test_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.387780] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.387859] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.387918] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.387972] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.388028] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.388081] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.388131] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.388181] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.388235] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.388286] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.388341] (latency_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/captain/zenoh_benchmark/src/latency_test_pkg/src/large_data_subscriber.cpp:5\x1b[m\x1b[K:\n'}
+[4.388382] (latency_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/captain/zenoh_benchmark/src/latency_test_pkg/src/large_data_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LargeDataSubscriber::print_results()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.388425] (latency_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/captain/zenoh_benchmark/src/latency_test_pkg/src/large_data_subscriber.cpp:106:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%zu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.388475] (latency_test_pkg) StderrLine: {'line': b'  106 |             \x1b[01;35m\x1b[K"Messaggi ricevuti: %zu/%zu"\x1b[m\x1b[K, results_.size(), \x1b[32m\x1b[K3\x1b[m\x1b[K);\n'}
+[4.388515] (latency_test_pkg) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                   \x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[4.388553] (latency_test_pkg) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.388591] (latency_test_pkg) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.388627] (latency_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/captain/zenoh_benchmark/src/latency_test_pkg/src/large_data_subscriber.cpp:106:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.388664] (latency_test_pkg) StderrLine: {'line': b'  106 |             "Messaggi ricevuti: %zu/\x1b[01;36m\x1b[K%zu\x1b[m\x1b[K", results_.size(), 3);\n'}
+[4.388700] (latency_test_pkg) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[4.388738] (latency_test_pkg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.388775] (latency_test_pkg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[4.388822] (latency_test_pkg) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[4.412319] (-) TimerEvent: {}
+[4.513083] (-) TimerEvent: {}
+[4.613424] (-) TimerEvent: {}
+[4.713732] (-) TimerEvent: {}
+[4.814035] (-) TimerEvent: {}
+[4.914813] (-) TimerEvent: {}
+[5.015102] (-) TimerEvent: {}
+[5.115382] (-) TimerEvent: {}
+[5.216410] (-) TimerEvent: {}
+[5.317132] (-) TimerEvent: {}
+[5.417410] (-) TimerEvent: {}
+[5.518059] (-) TimerEvent: {}
+[5.618674] (-) TimerEvent: {}
+[5.719388] (-) TimerEvent: {}
+[5.819676] (-) TimerEvent: {}
+[5.920323] (-) TimerEvent: {}
+[5.943440] (latency_test_pkg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable large_data_publisher\x1b[0m\n'}
+[6.020940] (-) TimerEvent: {}
+[6.083814] (latency_test_pkg) StdoutLine: {'line': b'[ 97%] Built target large_data_publisher\n'}
+[6.121050] (-) TimerEvent: {}
+[6.221332] (-) TimerEvent: {}
+[6.321618] (-) TimerEvent: {}
+[6.422173] (-) TimerEvent: {}
+[6.522458] (-) TimerEvent: {}
+[6.622744] (-) TimerEvent: {}
+[6.723029] (-) TimerEvent: {}
+[6.823302] (-) TimerEvent: {}
+[6.923687] (-) TimerEvent: {}
+[7.024005] (-) TimerEvent: {}
+[7.124276] (-) TimerEvent: {}
+[7.224548] (-) TimerEvent: {}
+[7.324832] (-) TimerEvent: {}
+[7.425114] (-) TimerEvent: {}
+[7.525390] (-) TimerEvent: {}
+[7.625666] (-) TimerEvent: {}
+[7.725948] (-) TimerEvent: {}
+[7.826220] (-) TimerEvent: {}
+[7.926495] (-) TimerEvent: {}
+[8.026767] (-) TimerEvent: {}
+[8.127051] (-) TimerEvent: {}
+[8.227329] (-) TimerEvent: {}
+[8.327609] (-) TimerEvent: {}
+[8.427878] (-) TimerEvent: {}
+[8.528158] (-) TimerEvent: {}
+[8.628440] (-) TimerEvent: {}
+[8.728752] (-) TimerEvent: {}
+[8.730699] (latency_test_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable large_data_subscriber\x1b[0m\n'}
+[8.828877] (-) TimerEvent: {}
+[8.929531] (-) TimerEvent: {}
+[8.975820] (latency_test_pkg) StdoutLine: {'line': b'[100%] Built target large_data_subscriber\n'}
+[8.986976] (latency_test_pkg) CommandEnded: {'returncode': 0}
+[8.987551] (latency_test_pkg) JobProgress: {'identifier': 'latency_test_pkg', 'progress': 'install'}
+[8.995750] (latency_test_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/captain/zenoh_benchmark/build/latency_test_pkg'], 'cwd': '/home/captain/zenoh_benchmark/build/latency_test_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'captain'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/captain'), ('OLDPWD', '/home/captain/zenoh_benchmark/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '795089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('COLCON_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'captain'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'captain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/captain-ThinkPad-T14s-Gen-2a:@/tmp/.ICE-unix/2577,unix/captain-ThinkPad-T14s-Gen-2a:/tmp/.ICE-unix/2577'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec5b9b8f_8564_42f0_8a00_b02dc66174be'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.337'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install/zenoh_benchmark:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/captain/zenoh_benchmark/build/latency_test_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/captain/zenoh_benchmark_1Mb/install/zenoh_benchmark:/opt/ros/humble')]), 'shell': False}
+[9.001889] (latency_test_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.002089] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/ament_index/resource_index/rosidl_interfaces/latency_test_pkg\n'}
+[9.002241] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg\n'}
+[9.002350] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg\n'}
+[9.002429] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/large_data.h\n'}
+[9.002529] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.002625] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail\n'}
+[9.002693] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__functions.h\n'}
+[9.002809] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.h\n'}
+[9.002920] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__struct.h\n'}
+[9.003029] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__functions.c\n'}
+[9.003221] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/library_path.sh\n'}
+[9.003336] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/library_path.dsv\n'}
+[9.003503] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_generator_c.so\n'}
+[9.003793] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_generator_c.so" to ""\n'}
+[9.003918] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg\n'}
+[9.004007] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg\n'}
+[9.004069] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.004146] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail\n'}
+[9.004205] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_fastrtps_c.h\n'}
+[9.004279] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[9.004449] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.004523] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg\n'}
+[9.004577] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg\n'}
+[9.004648] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.004709] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail\n'}
+[9.004759] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__struct.hpp\n'}
+[9.004825] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__traits.hpp\n'}
+[9.004905] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__builder.hpp\n'}
+[9.005007] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.hpp\n'}
+[9.005111] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/large_data.hpp\n'}
+[9.005226] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg\n'}
+[9.005286] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg\n'}
+[9.005327] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.005392] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail\n'}
+[9.005441] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/dds_fastrtps\n'}
+[9.005499] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.005635] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.005958] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.006018] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg\n'}
+[9.006077] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg\n'}
+[9.006117] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.006168] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail\n'}
+[9.006223] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.c\n'}
+[9.006307] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_introspection_c.h\n'}
+[9.006441] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_introspection_c.so\n'}
+[9.006701] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.006751] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_c.so\n'}
+[9.007003] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_c.so" to ""\n'}
+[9.007091] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg\n'}
+[9.007135] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg\n'}
+[9.007174] (latency_test_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail\n'}
+[9.007234] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.007275] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.cpp\n'}
+[9.007367] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[9.007660] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.007716] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_cpp.so\n'}
+[9.007977] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[9.008041] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/pythonpath.sh\n'}
+[9.008140] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/pythonpath.dsv\n'}
+[9.008253] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info\n'}
+[9.008407] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[9.008517] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[9.008621] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[9.008717] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[9.008844] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg\n'}
+[9.008920] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.009045] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.009161] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg\n'}
+[9.009231] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/_large_data_s.c\n'}
+[9.009339] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/__init__.py\n'}
+[9.009441] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/_large_data.py\n'}
+[9.009546] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.009649] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.009755] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.009886] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/liblatency_test_pkg__rosidl_generator_py.so\n'}
+[9.010008] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/__init__.py\n'}
+[9.010109] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[9.029601] (-) TimerEvent: {}
+[9.035314] (latency_test_pkg) StdoutLine: {'line': b"Listing '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg'...\n"}
+[9.035423] (latency_test_pkg) StdoutLine: {'line': b"Compiling '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/__init__.py'...\n"}
+[9.035482] (latency_test_pkg) StdoutLine: {'line': b"Listing '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg'...\n"}
+[9.035538] (latency_test_pkg) StdoutLine: {'line': b"Compiling '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/__init__.py'...\n"}
+[9.035589] (latency_test_pkg) StdoutLine: {'line': b"Compiling '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/_large_data.py'...\n"}
+[9.038764] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.038881] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.039010] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.039322] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.039491] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.039780] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.039913] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_generator_py.so\n'}
+[9.040166] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_generator_py.so" to ""\n'}
+[9.040296] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/msg/LargeData.idl\n'}
+[9.040406] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/msg/LargeData.msg\n'}
+[9.040554] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_publisher\n'}
+[9.041690] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_publisher" to ""\n'}
+[9.041782] (latency_test_pkg) StdoutLine: {'line': b'-- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_subscriber\n'}
+[9.044979] (latency_test_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_subscriber" to ""\n'}
+[9.045148] (latency_test_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:407 (file):\n'}
+[9.045221] (latency_test_pkg) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[9.045275] (latency_test_pkg) StderrLine: {'line': b'  "/home/captain/zenoh_benchmark/src/latency_test_pkg/config": No such file\n'}
+[9.045326] (latency_test_pkg) StderrLine: {'line': b'  or directory.\n'}
+[9.045373] (latency_test_pkg) StderrLine: {'line': b'\n'}
+[9.045418] (latency_test_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[9.046956] (latency_test_pkg) CommandEnded: {'returncode': 1}
+[9.054865] (latency_test_pkg) JobEnded: {'identifier': 'latency_test_pkg', 'rc': 1}
+[9.065275] (-) EventReactorShutdown: {}

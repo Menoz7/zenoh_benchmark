@@ -1,0 +1,166 @@
+[0.008s] Invoking command in '/home/captain/zenoh_benchmark/build/latency_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/captain/zenoh_benchmark/build/latency_test_pkg -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_generator_c[0m
+[0.053s] [  2%] Built target latency_test_pkg__cpp
+[0.054s] [ 11%] Built target latency_test_pkg__rosidl_generator_c
+[0.063s] [ 11%] Built target ament_cmake_python_copy_latency_test_pkg
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_introspection_c[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_cpp[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_introspection_cpp[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_fastrtps_c[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_c[0m
+[0.074s] [ 25%] Built target latency_test_pkg__rosidl_typesupport_c
+[0.074s] [ 28%] Built target latency_test_pkg__rosidl_typesupport_introspection_c
+[0.075s] [ 37%] Built target latency_test_pkg__rosidl_typesupport_introspection_cpp
+[0.075s] [ 45%] Built target latency_test_pkg__rosidl_typesupport_fastrtps_c
+[0.075s] [ 54%] Built target latency_test_pkg__rosidl_typesupport_fastrtps_cpp
+[0.076s] [ 62%] Built target latency_test_pkg__rosidl_typesupport_cpp
+[0.093s] [ 62%] Built target latency_test_pkg
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target large_data_subscriber[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target large_data_publisher[0m
+[0.114s] [ 65%] Built target latency_test_pkg__py
+[0.120s] [ 74%] [32mBuilding CXX object CMakeFiles/large_data_subscriber.dir/src/large_data_subscriber.cpp.o[0m
+[0.120s] [ 74%] Built target large_data_publisher
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_generator_py[0m
+[0.136s] [ 80%] Built target latency_test_pkg__rosidl_generator_py
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_c__pyext[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target latency_test_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.160s] [ 97%] Built target latency_test_pkg__rosidl_typesupport_c__pyext
+[0.160s] [ 97%] Built target latency_test_pkg__rosidl_typesupport_introspection_c__pyext
+[0.160s] [ 97%] Built target latency_test_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.247s] running egg_info
+[0.248s] writing latency_test_pkg.egg-info/PKG-INFO
+[0.248s] writing dependency_links to latency_test_pkg.egg-info/dependency_links.txt
+[0.248s] writing top-level names to latency_test_pkg.egg-info/top_level.txt
+[0.249s] reading manifest file 'latency_test_pkg.egg-info/SOURCES.txt'
+[0.250s] writing manifest file 'latency_test_pkg.egg-info/SOURCES.txt'
+[0.274s] [ 97%] Built target ament_cmake_python_build_latency_test_pkg_egg
+[6.168s] [100%] [32m[1mLinking CXX executable large_data_subscriber[0m
+[6.417s] [100%] Built target large_data_subscriber
+[6.428s] Invoked command in '/home/captain/zenoh_benchmark/build/latency_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/captain/zenoh_benchmark/build/latency_test_pkg -- -j16 -l16
+[6.436s] Invoking command in '/home/captain/zenoh_benchmark/build/latency_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/captain/zenoh_benchmark/build/latency_test_pkg
+[6.443s] -- Install configuration: ""
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/ament_index/resource_index/rosidl_interfaces/latency_test_pkg
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/large_data.h
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_generator_c__visibility_control.h
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail
+[6.443s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__functions.h
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.h
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__struct.h
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__functions.c
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/library_path.sh
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/library_path.dsv
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_generator_c.so
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_fastrtps_c.h
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_fastrtps_c.so
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__struct.hpp
+[6.444s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__traits.hpp
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__builder.hpp
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.hpp
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/large_data.hpp
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/dds_fastrtps
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_fastrtps_cpp.hpp
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_fastrtps_cpp.so
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.c
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_introspection_c.h
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_introspection_c.so
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_c.so
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__rosidl_typesupport_introspection_cpp.hpp
+[6.445s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/include/latency_test_pkg/latency_test_pkg/msg/detail/large_data__type_support.cpp
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_introspection_cpp.so
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_typesupport_cpp.so
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/pythonpath.sh
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/pythonpath.dsv
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info
+[6.446s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/PKG-INFO
+[6.446s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/dependency_links.txt
+[6.446s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/top_level.txt
+[6.446s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg-0.0.1-py3.10.egg-info/SOURCES.txt
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.446s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/_large_data_s.c
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/__init__.py
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg/_large_data.py
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/liblatency_test_pkg__rosidl_generator_py.so
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/__init__.py
+[6.447s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/_latency_test_pkg_s.ep.rosidl_typesupport_c.c
+[6.470s] Listing '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg'...
+[6.470s] Listing '/home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/msg'...
+[6.473s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.473s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.473s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/local/lib/python3.10/dist-packages/latency_test_pkg/latency_test_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.474s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/liblatency_test_pkg__rosidl_generator_py.so
+[6.474s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/msg/LargeData.idl
+[6.474s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/msg/LargeData.msg
+[6.474s] -- Up-to-date: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_publisher
+[6.474s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_subscriber
+[6.478s] -- Set runtime path of "/home/captain/zenoh_benchmark/install/latency_test_pkg/lib/latency_test_pkg/large_data_subscriber" to ""
+[6.478s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/config
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/config/dds_config.xml
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/ament_index/resource_index/package_run_dependencies/latency_test_pkg
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/ament_index/resource_index/parent_prefix_path/latency_test_pkg
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/ament_prefix_path.sh
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/ament_prefix_path.dsv
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/path.sh
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/environment/path.dsv
+[6.479s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/local_setup.bash
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/local_setup.sh
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/local_setup.zsh
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/local_setup.dsv
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/package.dsv
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/ament_index/resource_index/packages/latency_test_pkg
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_generator_cExport.cmake
+[6.480s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_generator_cExport-noconfig.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_generator_cppExport.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_introspection_cExport.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.481s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_cExport.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_cppExport.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_generator_pyExport.cmake
+[6.482s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/export_latency_test_pkg__rosidl_generator_pyExport-noconfig.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/rosidl_cmake-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.483s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkgConfig.cmake
+[6.484s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/cmake/latency_test_pkgConfig-version.cmake
+[6.484s] -- Installing: /home/captain/zenoh_benchmark/install/latency_test_pkg/share/latency_test_pkg/package.xml
+[6.486s] Invoked command in '/home/captain/zenoh_benchmark/build/latency_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/captain/zenoh_benchmark/build/latency_test_pkg

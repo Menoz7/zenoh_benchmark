@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "latency_test_pkg__py",
+		"source" : "/home/captain/zenoh_benchmark/build/latency_test_pkg/latency_test_pkg__py"
+	}
+}
